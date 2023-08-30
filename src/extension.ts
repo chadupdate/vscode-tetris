@@ -12,7 +12,7 @@ export function activate(context: vscode.ExtensionContext) {
 				'tetrisGame',
 				'Tetris Game',
 				vscode.ViewColumn.One,
-				{enableScripts: true}
+				{enableScripts: true,retainContextWhenHidden: true}
 			);
 
 			// 设置HTML内容
